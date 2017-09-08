@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get dist-upgrade
+apt-get dist-upgrade -y
 
 # sheepshaver dependencies
 apt-get install -y libsdl1.2debian dbus-x11 libxxf86dga1 libxxf86vm1 libesd0
